@@ -16,7 +16,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/requests")
-@CrossOrigin(origins = "http://localhost:5173")
 public class DonationRequestController {
 
     private final DonationRequestRepository requestRepository;

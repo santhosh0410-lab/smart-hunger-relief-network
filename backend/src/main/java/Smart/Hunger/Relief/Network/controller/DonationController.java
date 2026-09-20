@@ -21,7 +21,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/donations")
-@CrossOrigin(origins = "http://localhost:5173")
+
 public class DonationController {
 
     private final DonationRepository donationRepository;
