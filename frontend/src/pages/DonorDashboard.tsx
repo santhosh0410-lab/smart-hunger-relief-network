@@ -326,7 +326,7 @@ const handleAcceptRequest = async (requestId: number) => {
                                             src={`${
                                                 import.meta.env
                                                     .VITE_API_BASE_URL ||
-                                                "http://localhost:8080"
+                                                "https://smart-hunger-relief-backend.onrender.com"
                                             }/uploads/${donation.imageUrl}`}
                                             alt={donation.title}
                                         />

@@ -23,7 +23,7 @@ function Register() {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/api/auth/register",
+                "https://smart-hunger-relief-backend.onrender.com/api/auth/register",
                 {
                     method: "POST",
                     headers: {
